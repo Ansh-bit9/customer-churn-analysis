@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyzes customer churn data to understand which customer groups are more likely to leave a telecom service.
+This project analyzes telecom customer data to understand which customer groups are more likely to leave the service.
 
 The project follows this workflow:
 
@@ -12,7 +12,7 @@ The project follows this workflow:
 
 - Understand the overall customer churn rate
 - Compare churn across contract types
-- Analyze churn by customer tenure
+- Analyze customer churn by tenure
 - Compare monthly charges for churned and retained customers
 - Identify customer groups with higher churn
 - Present findings in an interactive dashboard
@@ -32,7 +32,7 @@ The dataset contains customer demographics, services, contract details, charges,
 - SQL
 - Google BigQuery
 - Streamlit
-- Matplotlib
+- Plotly
 
 ## Analysis Performed
 
@@ -49,6 +49,10 @@ The dataset contains customer demographics, services, contract details, charges,
 - Are higher monthly charges associated with higher churn?
 - Which customer groups may need more retention attention?
 
+## Live Dashboard
+
+**[Open the interactive Customer Churn Dashboard](https://customer-churn-analysis-889.streamlit.app/)**
+
 ## Files
 
 - `WA_Fn-UseC_-Telco-Customer-Churn.csv` — Dataset
@@ -59,7 +63,7 @@ The dataset contains customer demographics, services, contract details, charges,
 
 ## Running the Dashboard
 
-Install the required packages and run:
+Install the required packages:
 
 ```bash
-streamlit run app.py
+pip install -r requirements.txt
