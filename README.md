@@ -60,10 +60,14 @@ The dataset contains customer demographics, services, contract details, charges,
 - `churn_analysis.sql` — SQL analysis
 - `app.py` — Interactive dashboard
 - `requirements.txt` — Python packages for the dashboard
-
+- 
 ## Running the Dashboard
 
 Install the required packages:
 
 ```bash
 pip install -r requirements.txt
+
+Run the dashboard:
+
+streamlit run app.py
